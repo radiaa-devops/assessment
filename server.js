@@ -10,7 +10,7 @@ const PORT = 9000;
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello Anas Assil and Rayyan');
+  res.send('Hello Assessment');
 });
 
 app.listen(PORT, () => {
